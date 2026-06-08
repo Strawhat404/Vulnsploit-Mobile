@@ -1,0 +1,18 @@
+# Normalize line endings across platforms
+* text=auto eol=lf
+
+# Explicit binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+
+# Lockfiles — always LF, no merge conflicts from line endings
+package-lock.json text eol=lf
+yarn.lock text eol=lf
