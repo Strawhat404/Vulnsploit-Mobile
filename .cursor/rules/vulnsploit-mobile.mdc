@@ -9,7 +9,7 @@ alwaysApply: true
 Read `IMPLEMENTATION.md` and `docs/MOBILE_APP_BRIEF.md` before implementing.
 
 ## Stack
-Expo SDK 52 · TypeScript · Expo Router · TanStack Query · Zustand · Axios · expo-secure-store
+Expo SDK 54 · TypeScript · Expo Router · TanStack Query · Zustand · Axios · expo-secure-store
 
 ## API
 Base: `EXPO_PUBLIC_API_URL` + `/api`. Auth: JWT Bearer + refresh on 401.

@@ -1,9 +1,6 @@
 import axios from 'axios';
 import { env } from '@/config/env';
 
-/**
- * Axios instance — JWT interceptors added in Phase 1 (src/api/interceptors.ts).
- */
 export const apiClient = axios.create({
   baseURL: `${env.apiUrl}/api`,
   timeout: env.apiTimeoutMs,

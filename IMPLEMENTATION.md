@@ -1,6 +1,6 @@
 # VulnSploit Mobile — Implementation Plan
 
-> **Stack:** Expo SDK 52 · React Native · TypeScript · Expo Router · TanStack Query · Zustand · Axios  
+> **Stack:** Expo SDK 54 · React Native · TypeScript · Expo Router · TanStack Query · Zustand · Axios  
 > **Backend:** `../Vulnsploit` Django API (default `http://localhost:8001`)  
 > **Design reference:** `../MOBILE_APP_BRIEF.md` and `VulnSploit-FrontEnd/`
 
@@ -57,7 +57,7 @@ Vulnsploit-Mobile/
 
 ## Build phases
 
-### Phase 0 — Scaffold ✅ (current)
+### Phase 0 — Scaffold ✅
 
 - [x] Expo + TypeScript + Expo Router
 - [x] `.gitignore`, `.env.example`, `eas.json`
@@ -69,7 +69,7 @@ Vulnsploit-Mobile/
 
 ---
 
-### Phase 1 — Auth & API foundation
+### Phase 1 — Auth & API foundation ✅
 
 **Goal:** Real login/register with secure token persistence.
 
@@ -93,7 +93,7 @@ Vulnsploit-Mobile/
 
 ---
 
-### Phase 2 — Dashboard
+### Phase 2 — Dashboard ✅
 
 **Goal:** Command center with live stats.
 
@@ -259,4 +259,4 @@ Vulnsploit-Mobile/
 
 ## Current status
 
-**Phase 0 complete.** Next step: run `npm install` locally, then start **Phase 1 (Auth)**.
+**Phase 2 complete.** Next step: **Phase 3 (Scans)** — create scan, history, detail + terminal output.
